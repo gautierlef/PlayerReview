@@ -41,7 +41,7 @@ print(soup.find("div", id="time-hours").text.strip())
 """
 
 soup = HttpRequest().get_url("https://steamcommunity.com/id/bullshit")
-print(soup.findAll())
+#print(soup.findAll())
 
 def get_steam_site(username):
     """ Returns the URL of the steam community site given a username
@@ -79,7 +79,7 @@ def get_wol_site(country,username):
 
 steam_soup = HttpRequest().get_url(get_steam_site('bullshit'))
 
-page_content = steam_soup.find_all("div",attrs={"class": "responsive_page_content"})
+page_content = steam_soup.find("div",attrs={"class": "responsive_page_content"})
 
 main_content_soup = page_content.find("div",{'class':'maincontent'})
 
@@ -91,4 +91,4 @@ games_list_container_soup = games_list_soup.find("div",{'id':'games_list_row_con
 
 games_rows = games_list_container_soup.find("div",{'id':'games_list_rows'})
 
-print(games_rows)
+#print(games_rows)
