@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 
 class HttpRequest:
+    """ Creates an HttpRequest of a specific URL request """
     def __init__(self):
         self.ua = "User agent"
 
@@ -30,12 +31,64 @@ class HttpRequest:
 # https://wol.gg/stats/euw/arakniro/
 # https://steamcommunity.com/id/bullshit/games/?tab=all
 
-"""print('Entrer le pseudo que vous rechercher :')
-pseudo = input()
+"""
+pseudo = input('Entrer le pseudo que vous rechercher :')
 print("Joueur : " + pseudo)
 soup = HttpRequest().get_url("https://euw.op.gg/summoner/userName=" + pseudo)
 print(soup.find("div", class_="TierRank").text.strip())
 soup = HttpRequest().get_url("https://wol.gg/stats/euw/" + pseudo + "/")
-print(soup.find("div", id="time-hours").text.strip())"""
+print(soup.find("div", id="time-hours").text.strip())
+"""
+
 soup = HttpRequest().get_url("https://steamcommunity.com/id/bullshit")
 print(soup.findAll())
+
+def get_steam_site(username):
+    """ Returns the URL of the steam community site given a username
+    Parameters
+    ----------
+    username : str
+        The user username
+    """
+    return ''.join(['https://steamcommunity.com/id/',username,'/games/?tab=all'])
+
+def get_lol_site(username):
+    """ Returns the URL of the lol site given a username
+
+    Parameters
+    ----------
+    username : str
+        The user username
+    """
+    return ''.join(['https://euw.op.gg/summoner/userName=',username])
+
+def get_wol_site(country,username):
+    """ Returns the URL of the wol site given a username
+
+    Parameters
+    ----------
+    username : str
+        The user username
+
+    Returns
+    ----------
+    username : str
+        The user username
+    """
+    return ''.join(['https://wol.gg/stats/',country,'/',username])
+
+steam_soup = HttpRequest().get_url(get_steam_site('bullshit'))
+
+page_content = steam_soup.find_all("div",attrs={"class": "responsive_page_content"})
+
+main_content_soup = page_content.find("div",{'class':'maincontent'})
+
+mainContents_soup = main_content_soup.find("div",{'id':'mainContents'})
+
+games_list_soup = mainContents_soup.find('div',{'class':'games_list'})
+
+games_list_container_soup = games_list_soup.find("div",{'id':'games_list_row_container'})
+
+games_rows = games_list_container_soup.find("div",{'id':'games_list_rows'})
+
+print(games_rows)
