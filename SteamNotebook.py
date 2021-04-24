@@ -11,7 +11,7 @@ def get_steam_site(username):
 
 #%%
 
-wd_steam = webdriver.wd_steam(executable_path="./wd_steamdriver_win32/wd_steamdriver.exe")
+wd_steam = webdriver.Chrome(executable_path="./chromedriver_win32/chromedriver.exe" )
 
 #%%
 
