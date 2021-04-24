@@ -31,13 +31,15 @@ game_stats = [game.strip() for game in game_stats]
 
 #%%
 
+jeu = [game.split('\n')[0] for game in game_stats]
+heures = [game.split('\n')[1] for game in game_stats]
+heures = [float(heures.split(' ')[0]) for heures in heures]
+
+dic_jeu_heure = dict(zip(jeu,heures))
+#%%
+
 stats_presentes = [game for game in all_games if 'stats' in game.text]
 
 #%%
-stats_controls = [stats_presentes[i].find_elements_by_class_name('bottom_controls') for i in range(len(stats_presentes))]
+#stats_controls = [stats_presentes[i].find_elements_by_class_name('bottom_controls') for i in range(len(stats_presentes))]
 #%%
-
-
-stats_controls.find_elements_by_class_name('pullup_item')
-#%%
-bottom_control_six = stats_presentes[6].find_elements_by_class_name('bottom_controls')
