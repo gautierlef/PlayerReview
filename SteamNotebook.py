@@ -32,7 +32,7 @@ def jeux_communs(dic1, dic2):
 
 
 def save_data(players):
-    file = open("data.txt", "w")
+    file = open("data.txt", "w",encoding='utf-8')
     content = ""
     for player in players:
         content += "Player|" + player["name"] + "\n"
@@ -62,8 +62,7 @@ def load_data():
 
 if __name__ == "__main__":
     players = load_data()
-    print("Entrer le pseudo du joueur :")
-    pseudo = input()
+    pseudo = input("Entrer le pseudo du joueur :")
     found = False
     for player in players:
         if player['name'] == pseudo:
