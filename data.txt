@@ -78,3 +78,170 @@ Player|bullshit
 Dota 2|864.0
 Counter-Strike: Global Offensive|596.0
 Worm.is: The Game|0.6
+Player|arakniro
+Terraria|860.0
+Warframe|480.0
+The Binding of Isaac: Rebirth|421.0
+PlanetSide 2|194.0
+PLAYERUNKNOWN'S BATTLEGROUNDS|191.0
+The Witcher 3: Wild Hunt|162.0
+The Elder Scrolls V: Skyrim|158.0
+Counter-Strike: Global Offensive|151.0
+Team Fortress 2|133.0
+Total War: WARHAMMER II|126.0
+Monster Hunter: World|111.0
+Darkest Dungeon®|102.0
+Blood Bowl 2|97.0
+Counter-Strike: Source|90.0
+Trove|87.0
+Don't Starve Together|83.0
+Rocket League|83.0
+Cyberpunk 2077|81.0
+Among Us|76.0
+Saints Row: The Third|75.0
+Mount & Blade: Warband|72.0
+Rust|71.0
+Evolve Stage 2|62.0
+PAYDAY 2|56.0
+Borderlands 2|55.0
+Orcs Must Die! Unchained|50.0
+Pixel Piracy|48.0
+Phoenix Wright: Ace Attorney Trilogy|43.0
+Red Dead Redemption 2|43.0
+Kingdom Come: Deliverance|41.0
+Nosgoth|40.0
+Stardew Valley|39.0
+Orcs Must Die! 2|37.0
+Brawlhalla|36.0
+Starbound|33.0
+Elite Dangerous|32.0
+Noita|31.0
+The Sims(TM) 3|31.0
+Middle-earth™: Shadow of Mordor™|29.0
+Sleeping Dogs: Definitive Edition|27.0
+Styx: Shards of Darkness|26.0
+FTL: Faster Than Light|23.0
+Castle Crashers|22.0
+Pit People|22.0
+Mass Effect 2 (2010)|22.0
+Subnautica|21.0
+Reus|20.0
+Foxhole|19.8
+Legend of Keepers|19.6
+Saints Row IV|19.6
+Styx: Master of Shadows|19.0
+Loop Hero|18.3
+Bastion|18.1
+Fistful of Frags|17.3
+Super Meat Boy|17.1
+Garry's Mod|16.0
+Toribash|15.3
+Magic Duels|15.3
+Trine 2|13.7
+Brütal Legend|13.6
+TERA|12.1
+The Guild II|11.8
+Don't Starve|11.6
+DEATH STRANDING|11.4
+X-Blades|11.0
+Star Wars: Battlefront 2 (Classic, 2005)|10.3
+Le Donjon de Naheulbeuk : L'Amulette du Désordre|10.2
+River City Girls|9.8
+Magicka 2|9.7
+Rogue Legacy|9.5
+Little Inferno|9.4
+Shantae: Half-Genie Hero|9.2
+Portal 2|9.1
+Trine|8.9
+Business Tour - Online Multiplayer Board Game|8.2
+Spore|8.0
+Kingdom Rush Frontiers|8.0
+Unturned|7.8
+TrackMania² Stadium|7.2
+Loadout|5.9
+Dead Island|5.8
+Cthulhu Saves the World|4.9
+Warhammer 40,000: Dawn of War III|4.8
+One Troll Army|4.4
+Fall Guys: Ultimate Knockout|4.3
+World of Goo|4.1
+Tom Clancy's Rainbow Six Siege|3.6
+Morphopolis|3.3
+Worms Revolution|3.2
+Teeworlds|2.7
+Sparkle 2 Evo|2.6
+Portal|2.5
+Camera Obscura|2.3
+Caster|2.3
+Primal Carnage|2.3
+Terra Incognita ~ Chapter One: The Descendant|2.2
+Oddworld: Abe's Oddysee|2.1
+Spore: Creepy & Cute Parts Pack|2.0
+I, Zombie|1.9
+BEEP|1.7
+Dota 2|1.5
+Polarity|1.2
+DuckTales Remastered|1.1
+The Elder Scrolls V: Skyrim Special Edition|0.5
+Dead or Alive 5 Last Round|0.3
+Total War: WARHAMMER|0.1
+Player|azeazeazeaze
+The Witcher 3: Wild Hunt|152.0
+The Binding of Isaac: Rebirth|137.0
+Monster Hunter: World|120.0
+Worms W.M.D|54.0
+Oxygen Not Included|49.0
+Rogue Legacy|47.0
+Cyberpunk 2077|46.0
+Borderlands 2|44.0
+Hollow Knight|41.0
+Project Winter|40.0
+Ori and the Will of the Wisps|39.0
+Pummel Party|37.0
+Among Us|31.0
+Ori and the Blind Forest: Definitive Edition|29.0
+PLAYERUNKNOWN'S BATTLEGROUNDS|29.0
+Red Dead Redemption 2|28.0
+Rise of the Tomb Raider|28.0
+South Park The Fractured But Whole|24.0
+SpeedRunners|22.0
+Dying Light|22.0
+DOOM|22.0
+Dishonored 2|22.0
+Bad North|21.0
+The End Is Nigh|21.0
+Age of Empires II: Definitive Edition|19.8
+TrackMania² Stadium|13.5
+The Pedestrian|12.4
+Wolfenstein II: The New Colossus|11.8
+Fall Guys: Ultimate Knockout|11.1
+Move or Die|7.7
+Z1 Battle Royale|7.3
+Fable Anniversary|7.0
+Shadow of the Tomb Raider|6.8
+Quake Champions|5.6
+The Escapists 2|5.2
+Battlerite|4.9
+Faeria|4.5
+LIMBO|4.4
+A Plague Tale: Innocence|4.3
+What Remains of Edith Finch|4.1
+The Dark Pictures Anthology: Man of Medan|3.3
+DeadCore|2.8
+Late Shift|2.5
+Counter-Strike: Global Offensive|2.2
+Mirror's Edge™ Catalyst|2.1
+Celeste|1.6
+Don't Starve Together|1.6
+Hellblade: Senua's Sacrifice|1.6
+BattleBlock Theater|1.4
+Titan Souls|0.9
+Dead by Daylight|0.7
+Deceit|0.6
+RISK: Global Domination|0.4
+Team Fortress 2|0.4
+For The King|0.3
+Steep|0.3
+Jump King|0.2
+TrackMania Nations Forever|0.2
+Splasher|0.1

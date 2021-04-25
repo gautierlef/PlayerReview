@@ -3,26 +3,18 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
+wd_steam = webdriver.Chrome(executable_path="./chromedriver_win32/chromedriver.exe")
 
-# %%
 
 def get_steam_site(username):
     return ''.join(['https://steamcommunity.com/id/', username, '/games/?tab=all'])
 
 
-# %%
-
-wd_steam = webdriver.Chrome(executable_path="./chromedriver_win32/chromedriver.exe")
-
-
-# %%
-
-
-# %%
-
 def get_hours(pseudo):
     wd_steam.get(get_steam_site(pseudo))
     games_list = wd_steam.find_elements_by_id("games_list_rows")
+    if len(games_list) == 0:
+        return None
     all_games = games_list[0].find_elements_by_class_name('gameListRow')
     game_stats = [game.text.split('Liens')[0] for game in all_games if 'heures' in game.text]
     game_stats = [game.strip() for game in game_stats]
@@ -35,10 +27,6 @@ def get_hours(pseudo):
     }
     return player
 
-
-# %%
-
-# %%
 
 def jeux_communs(dic1, dic2):
     return [jeu for jeu in dic1["games"].keys() if jeu in dic2["games"].keys()]
@@ -75,15 +63,23 @@ def load_data():
 
 if __name__ == "__main__":
     players = load_data()
-    """players1 = []
-    dic_vol = get_hours('vol')
-    dic_bs = get_hours('bullshit')
-    players1.append(dic_vol)
-    players1.append(dic_bs)
-    print(players)
-    print(players1)"""
-    print(jeux_communs(players[0], players[1]))
-    save_data(players)
-# %%
-# stats_controls = [stats_presentes[i].find_elements_by_class_name('bottom_controls') for i in range(len(stats_presentes))]
-# %%
+    print("Entrer le pseudo du joueur :")
+    pseudo = input()
+    found = False
+    for player in players:
+        if player['name'] == pseudo:
+            found = True
+            player = get_hours(pseudo)
+            inputPlayer = player
+            break
+    if not found:
+        inputPlayer = get_hours(pseudo)
+        if inputPlayer is not None:
+            players.append(inputPlayer)
+    if inputPlayer is not None:
+        for player in players:
+            if player['name'] != pseudo:
+                print("Jeux en commun avec :", player['name'], jeux_communs(inputPlayer, player))
+        save_data(players)
+    else:
+        print("Le pseudo :", pseudo, "ne correspond à aucun compte.")
