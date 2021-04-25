@@ -3,14 +3,13 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-wd_steam = webdriver.Chrome(executable_path="./chromedriver_win32/chromedriver.exe")
-
 
 def get_steam_site(username):
     return ''.join(['https://steamcommunity.com/id/', username, '/games/?tab=all'])
 
 
 def get_hours(pseudo):
+    wd_steam = webdriver.Chrome(executable_path="./chromedriver_win32/chromedriver.exe")
     wd_steam.get(get_steam_site(pseudo))
     games_list = wd_steam.find_elements_by_id("games_list_rows")
     if len(games_list) == 0:
