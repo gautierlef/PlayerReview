@@ -91,4 +91,4 @@ games_list_container_soup = games_list_soup.find("div",{'id':'games_list_row_con
 
 games_rows = games_list_container_soup.find("div",{'id':'games_list_rows'})
 
-#print(games_rows)
+print(games_rows)

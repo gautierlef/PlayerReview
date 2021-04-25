@@ -1,0 +1,80 @@
+Player|vol
+Counter-Strike: Global Offensive|2541.0
+Counter-Strike|2047.0
+The Binding of Isaac: Rebirth|985.0
+PLAYERUNKNOWN'S BATTLEGROUNDS|572.0
+SMITE|526.0
+Heroes & Generals|473.0
+The Witcher 3: Wild Hunt|250.0
+Risk of Rain 2|139.0
+Marvel Heroes Omega|117.0
+Left 4 Dead 2|114.0
+Slay the Spire|98.0
+Hades|73.0
+Arma 3|72.0
+Dead by Daylight|63.0
+Gunfire Reborn|46.0
+Enter the Gungeon|42.0
+Red Dead Redemption 2|42.0
+The Binding of Isaac|38.0
+Cyberpunk 2077|38.0
+Might & Magic Heroes VII – Trial by Fire|34.0
+Neverwinter|30.0
+Borderlands 2|29.0
+Far Cry 5|28.0
+DmC Devil May Cry|25.0
+Valheim|23.0
+Dead Age|17.1
+Middle-earth™: Shadow of Mordor™|14.5
+Thronebreaker: The Witcher Tales|14.0
+Tiger Knight: Empire War|13.5
+Bless Online|13.2
+Beat Cop|12.8
+Beyond: Two Souls|11.0
+Black Desert Online|9.9
+BATTALION 1944|9.5
+Shadow Warrior 2|7.4
+The Witcher 2: Assassins of Kings Enhanced Edition|7.3
+Hellblade: Senua's Sacrifice|7.2
+Dying Light|6.8
+Magicka|6.6
+Team Fortress 2|6.6
+Saints Row: Gat out of Hell|6.4
+Metro Exodus|6.3
+Iratus: Lord of the Dead|5.8
+Path of Exile|5.7
+Ys I|5.2
+Bayonetta|4.5
+Shank 2|4.1
+Dungeon Siege III|3.7
+Z1 Battle Royale|3.3
+Broforce|3.2
+GreedFall|2.9
+Evil Genius 2|2.2
+Dota 2|2.2
+Command & Conquer™ Remastered Collection|1.9
+Destiny 2|1.7
+Echo of Soul|1.6
+TERA|1.5
+Dead Age 2|1.5
+Heroes of Might & Magic III - HD Edition|1.2
+Ring of Elysium|1.2
+Orcs Must Die! 2|1.2
+The Witcher: Enhanced Edition|1.1
+Darwin Project|0.9
+M.E.A.T.|0.9
+Portal 2|0.8
+The Legend of Bum-Bo|0.6
+Football Game|0.6
+Battlerite|0.6
+Hatred|0.5
+Total War: SHOGUN 2|0.5
+Magicka 2|0.4
+Borderlands: The Pre-Sequel|0.4
+RPG MO|0.4
+Guacamelee! Super Turbo Championship Edition|0.4
+Hollow Knight|0.3
+Player|bullshit
+Dota 2|864.0
+Counter-Strike: Global Offensive|596.0
+Worm.is: The Game|0.6
