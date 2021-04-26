@@ -97,9 +97,12 @@ def recommend_games(players, inputPlayer):
                             break
     recommendedGames = sorted(recommendedGames, key=lambda k: k['nb'])
     print("\nVoici des jeux joués par des utilisateurs similaire à vous :")
-    for i in range(0, 3):
-        if recommendedGames[i] is not None:
-            print(recommendedGames[i]['name'])
+    nbRecommendedGames = 0
+    for game in recommendedGames:
+        print(game['name'])
+        nbRecommendedGames += 1
+        if nbRecommendedGames > 3:
+            break
 
 
 def recommend_players(players, inputPlayer):
@@ -133,4 +136,4 @@ if __name__ == '__main__':
         recommend_players(players, inputPlayer)
         save_data(players)
     else:
-        print('Le pseudo :', pseudo, 'ne correspond à aucun compte ou ce joueur n\'a pas de jeu.')
+        print('Le pseudo :', pseudo, 'ne correspond à aucun compte ou le profil de ce joueur est privé.')
