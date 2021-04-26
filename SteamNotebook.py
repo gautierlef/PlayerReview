@@ -96,9 +96,10 @@ def recommend_games(players, inputPlayer):
                             recommendedGames.append({"name": game, "nb": 1})
                             break
     recommendedGames = sorted(recommendedGames, key=lambda k: k['nb'])
-    print("\nVoici 3 jeux joués par des utilisateurs similaire à vous :")
+    print("\nVoici des jeux joués par des utilisateurs similaire à vous :")
     for i in range(0, 3):
-        print(recommendedGames[i]['name'])
+        if recommendedGames[i] is not None:
+            print(recommendedGames[i]['name'])
 
 
 def recommend_players(players, inputPlayer):
