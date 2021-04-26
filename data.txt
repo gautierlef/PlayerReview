@@ -18,14 +18,14 @@ Enter the Gungeon|42.0
 Red Dead Redemption 2|42.0
 The Binding of Isaac|38.0
 Cyberpunk 2077|38.0
-Might & Magic Heroes VII – Trial by Fire|34.0
+Might & Magic Heroes VII ï¿½ Trial by Fire|34.0
 Neverwinter|30.0
 Borderlands 2|29.0
 Far Cry 5|28.0
 DmC Devil May Cry|25.0
 Valheim|23.0
 Dead Age|17.1
-Middle-earth™: Shadow of Mordor™|14.5
+Middle-earthï¿½: Shadow of Mordorï¿½|14.5
 Thronebreaker: The Witcher Tales|14.0
 Tiger Knight: Empire War|13.5
 Bless Online|13.2
@@ -52,7 +52,7 @@ Broforce|3.2
 GreedFall|2.9
 Evil Genius 2|2.2
 Dota 2|2.2
-Command & Conquer™ Remastered Collection|1.9
+Command & Conquerï¿½ Remastered Collection|1.9
 Destiny 2|1.7
 Echo of Soul|1.6
 TERA|1.5
@@ -90,7 +90,7 @@ Counter-Strike: Global Offensive|151.0
 Team Fortress 2|133.0
 Total War: WARHAMMER II|126.0
 Monster Hunter: World|111.0
-Darkest Dungeon®|102.0
+Darkest Dungeonï¿½|102.0
 Blood Bowl 2|97.0
 Counter-Strike: Source|90.0
 Trove|87.0
@@ -117,7 +117,7 @@ Starbound|33.0
 Elite Dangerous|32.0
 Noita|31.0
 The Sims(TM) 3|31.0
-Middle-earth™: Shadow of Mordor™|29.0
+Middle-earthï¿½: Shadow of Mordorï¿½|29.0
 Sleeping Dogs: Definitive Edition|27.0
 Styx: Shards of Darkness|26.0
 FTL: Faster Than Light|23.0
@@ -138,14 +138,14 @@ Garry's Mod|16.0
 Toribash|15.3
 Magic Duels|15.3
 Trine 2|13.7
-Brütal Legend|13.6
+Brï¿½tal Legend|13.6
 TERA|12.1
 The Guild II|11.8
 Don't Starve|11.6
 DEATH STRANDING|11.4
 X-Blades|11.0
 Star Wars: Battlefront 2 (Classic, 2005)|10.3
-Le Donjon de Naheulbeuk : L'Amulette du Désordre|10.2
+Le Donjon de Naheulbeuk : L'Amulette du Dï¿½sordre|10.2
 River City Girls|9.8
 Magicka 2|9.7
 Rogue Legacy|9.5
@@ -157,7 +157,7 @@ Business Tour - Online Multiplayer Board Game|8.2
 Spore|8.0
 Kingdom Rush Frontiers|8.0
 Unturned|7.8
-TrackMania² Stadium|7.2
+TrackManiaï¿½ Stadium|7.2
 Loadout|5.9
 Dead Island|5.8
 Cthulhu Saves the World|4.9
@@ -211,7 +211,7 @@ Dishonored 2|22.0
 Bad North|21.0
 The End Is Nigh|21.0
 Age of Empires II: Definitive Edition|19.8
-TrackMania² Stadium|13.5
+TrackManiaï¿½ Stadium|13.5
 The Pedestrian|12.4
 Wolfenstein II: The New Colossus|11.8
 Fall Guys: Ultimate Knockout|11.1
@@ -230,7 +230,7 @@ The Dark Pictures Anthology: Man of Medan|3.3
 DeadCore|2.8
 Late Shift|2.5
 Counter-Strike: Global Offensive|2.2
-Mirror's Edge™ Catalyst|2.1
+Mirror's Edgeï¿½ Catalyst|2.1
 Celeste|1.6
 Don't Starve Together|1.6
 Hellblade: Senua's Sacrifice|1.6
@@ -245,3 +245,586 @@ Steep|0.3
 Jump King|0.2
 TrackMania Nations Forever|0.2
 Splasher|0.1
+Player|dwarf
+Dota 2|2786.0
+Team Fortress 2|1855.0
+Counter-Strike: Global Offensive|1255.0
+Oxygen Not Included|728.0
+Factorio|630.0
+The Binding of Isaac: Rebirth|487.0
+Europa Universalis IV|437.0
+Counter-Strike|413.0
+RimWorld|288.0
+Fallout 4|152.0
+Idle Champions of the Forgotten Realms|138.0
+Fallout: New Vegas|128.0
+XCOM: Enemy Unknown|127.0
+Cities: Skylines|121.0
+Day of Defeat: Source|102.0
+Terraria|98.0
+Don't Starve|83.0
+FTL: Faster Than Light|67.0
+Two Point Hospital|58.0
+Sid Meier's Civilization V|52.0
+Call of Duty: Modern Warfare 2 - Multiplayer|51.0
+LEGO® The Lord of the Rings™|51.0
+Tropico 4|41.0
+Grand Theft Auto V|41.0
+Borderlands 2|40.0
+Euro Truck Simulator 2|36.0
+Cities XL 2012|34.0
+Clicker Heroes|34.0
+Tom Clancy's Rainbow Six Siege|31.0
+Borderlands GOTY|30.0
+LEGO® MARVEL Super Heroes|26.0
+The Tiny Bang Story|23.0
+Creeper World 3: Arc Eternal|21.0
+Plants vs. Zombies: Game of the Year|20.0
+LEGO® The Hobbit™|19.8
+Prison Architect|19.5
+Call of Duty: Black Ops - Multiplayer|19.3
+Middle-earth™: Shadow of Mordor™|19.3
+Day of Defeat|19.1
+Radical Dungeon Sweeper|18.1
+Sleeping Dogs™|16.5
+Batman: Arkham City GOTY|15.8
+Portal 2|14.2
+AdVenture Capitalist|14.0
+Graveyard Keeper|12.1
+Lethis - Path of Progress|11.7
+Call of Duty: Modern Warfare 2|11.4
+Left 4 Dead 2|11.4
+Torchlight II|11.1
+Dota Underlords|9.8
+Call of Duty: Black Ops|9.7
+Saints Row IV|8.7
+The Witcher 3: Wild Hunt|8.0
+Gunpoint|7.5
+112 Operator|7.1
+NGU IDLE|6.8
+Towns|6.8
+Hotline Miami|6.8
+Dicey Dungeons|6.6
+Tropico 5|6.4
+Chris Sawyer's Locomotion|5.7
+Just Cause 2|5.5
+Days of War|5.5
+Peggle Deluxe|5.3
+Magicka|5.1
+Deus Ex: Human Revolution|5.0
+War for the Overworld|4.7
+Monday Night Combat|4.6
+Quake Live|4.3
+Blender|4.1
+Super Monday Night Combat|4.1
+Natural Selection 2|3.9
+Counter-Strike: Condition Zero Deleted Scenes|3.9
+Assassin's Creed IV Black Flag|3.9
+Craft The World|3.8
+Castle Story|3.8
+BattleBlock Theater|3.8
+Bastion|3.7
+True Sight|3.3
+Peggle Nights|3.2
+Anno 1404|3.2
+Bloons TD 6|2.9
+Dwarfs!?|2.9
+SimCity 4 Deluxe|2.8
+Anno 1404: Venice|2.8
+METAL GEAR SOLID V: THE PHANTOM PAIN|2.8
+Unreal Tournament 2004|2.6
+Frozen Synapse|2.5
+Dead Island|2.4
+Machinarium|2.3
+Free to Play|2.2
+F.E.A.R. 3|2.1
+Quake Champions|2.1
+Easy eSports|2.0
+Human Resource Machine|1.9
+Krater|1.8
+Dota 2 Player Profiles|1.8
+Poker Night at the Inventory|1.8
+Counter-Strike: Source|1.8
+Dota 2 Player Profiles: EG - Suma1L|1.7
+Creeper World 2 Anniversary Edition|1.7
+Counter-Strike: Condition Zero|1.7
+Plague Inc: Evolved|1.6
+RollerCoaster Tycoon 3: Platinum!|1.6
+Shovel Knight: Treasure Trove|1.6
+Mini Metro|1.5
+Planet Coaster|1.3
+Antichamber|1.3
+Portal|1.2
+Starbound|1.2
+Empire of Sin|1.1
+Alien Swarm|1.1
+Audiosurf|0.9
+Spelunky|0.8
+This War of Mine|0.8
+Half-Life 2: Deathmatch|0.8
+Railway Empire|0.8
+Flight Control HD|0.7
+Tower Wars|0.7
+Hotline Miami 2: Wrong Number|0.7
+Garry's Mod|0.7
+Dead Rising 2|0.6
+Shadow Tactics: Blades of the Shogun|0.6
+Aim Lab|0.6
+Dishonored|0.5
+You Need A Budget 4 (YNAB)|0.4
+METAL GEAR SOLID V: GROUND ZEROES|0.4
+Insurgency|0.4
+RollerCoaster Tycoon: Deluxe|0.3
+Total War: SHOGUN 2|0.3
+Metro 2033|0.3
+SpaceChem|0.3
+Bionic Commando Rearmed|0.2
+Dead Island: Epidemic|0.2
+Half-Life 2|0.2
+Marbles on Stream|0.2
+Oh...Sir! The Insult Simulator|0.1
+Insurgency: Modern Infantry Combat|0.1
+Player|zerator
+PLAYERUNKNOWN'S BATTLEGROUNDS|622.0
+Counter-Strike: Global Offensive|612.0
+Rocket League|221.0
+Dota 2|218.0
+Sid Meier's Civilization VI|211.0
+Z1 Battle Royale|137.0
+Counter-Strike|136.0
+RWBY: Grimm Eclipse|122.0
+Hades|119.0
+Slay the Spire|103.0
+Overcooked! 2|97.0
+Super Meat Boy|88.0
+Splasher|83.0
+ASTRONEER|64.0
+Cook, Serve, Delicious! 3?!|53.0
+FORCED SHOWDOWN|50.0
+Battlefield: Bad Company™ 2|46.0
+Road Redemption|44.0
+Golf It!|43.0
+Darwin Project|42.0
+Valheim|39.0
+Kona|37.0
+Worms W.M.D|36.0
+Bridge Constructor Portal|35.0
+Ultimate Chicken Horse|34.0
+Battlerite|31.0
+Grand Theft Auto V|30.0
+Among Us|29.0
+As Far As The Eye|29.0
+Rust|28.0
+Heave Ho|27.0
+Unrailed!|27.0
+Refunct|26.0
+Loop Hero|25.0
+Poly Bridge|25.0
+The Binding of Isaac: Rebirth|23.0
+Darkest Dungeon®|23.0
+Euro Truck Simulator 2|23.0
+INSIDE|22.0
+Battlerite Royale|22.0
+Scrap Mechanic|21.0
+Iconoclasts|21.0
+DOOM Eternal|21.0
+Spore: Galactic Adventures|19.8
+Bad North|19.7
+Mushroom Wars 2|19.3
+A Story About My Uncle|18.4
+Defiance|18.4
+For The King|18.3
+Evoland 2|18.2
+Fall Guys: Ultimate Knockout|17.7
+Portal 2|17.6
+It Takes Two|15.9
+Rogue Legacy|15.8
+Surviving Mars|15.5
+Overcooked|15.4
+We Were Here Together|15.0
+Sid Meier's Civilization V|14.4
+Heroes of Might & Magic III - HD Edition|13.8
+Peggle Deluxe|13.4
+Cuphead|12.4
+Two Point Hospital|12.2
+Foundation|12.1
+Dungeon Defenders II|11.8
+The Escapists|11.6
+Farm Machines Championships 2014|11.4
+Disc Jam|11.2
+Forts|10.4
+Golf With Your Friends|10.0
+DOOM|9.7
+Healer's Quest|9.7
+Visage|9.5
+Godus|9.4
+Clustertruck|9.3
+Left 4 Dead 2|9.1
+The End Is Nigh|9.0
+Tricky Towers|8.5
+Degrees of Separation|8.5
+Far Cry® 3 Blood Dragon|8.4
+Cook, Serve, Delicious!|8.4
+Rayman Legends|8.1
+Age of Empires II: Definitive Edition|8.1
+Trials Evolution Gold Edition|8.1
+Realm Royale|7.9
+Goat Simulator|7.9
+Owlboy|7.8
+Escape Goat 2|7.5
+The Isle|7.4
+The Elder Scrolls V: Skyrim|7.4
+Crypt of the NecroDancer|7.3
+Yooka-Laylee|7.2
+SpeedRunners|6.9
+Celeste|6.9
+Counter-Strike: Source|6.7
+Crucible|6.7
+Just Survive|6.6
+BattleBlock Theater|6.6
+Minecraft: Story Mode - A Telltale Games Series|6.4
+Game Dev Tycoon|6.4
+Layers of Fear 2|6.4
+Quake Live|6.4
+Turmoil|6.3
+Cook, Serve, Delicious! 2!!|6.3
+Castle Crashers|6.0
+Into the Breach|6.0
+Fishing Planet|5.9
+Farming Simulator 15|5.8
+Trine 2|5.8
+Don't Starve Together|5.7
+Transformice|5.5
+Magicka|5.5
+Gauntlet™|5.2
+Dungeon of the Endless™|5.0
+Tools Up!|5.0
+Age of Empires II (2013)|4.9
+Pode|4.9
+Deep Rock Galactic|4.9
+Farming Simulator 2013|4.9
+ISLANDERS|4.8
+Planetary Annihilation|4.7
+Choice Chamber|4.7
+Half-Life 2|4.6
+Outlast|4.6
+Command & Conquer™ Remastered Collection|4.6
+Unravel Two|4.6
+Ben and Ed|4.5
+Besiege|4.5
+DwarfHeim|4.5
+Trine 4: The Nightmare Prince|4.5
+Biped|4.4
+Human: Fall Flat|4.3
+LEGO® The Lord of the Rings™|4.3
+The Talos Principle|4.2
+Hotline Miami 2: Wrong Number|4.2
+Talent Not Included|4.2
+Stellaris|4.2
+My Friend Pedro|4.1
+Epistory - Typing Chronicles|4.0
+Garry's Mod|3.9
+Bridge Constructor Stunts|3.8
+Homeworld Remastered Collection|3.7
+The Free Ones|3.6
+The Witcher 2: Assassins of Kings Enhanced Edition|3.6
+Firewatch|3.5
+One Finger Death Punch|3.5
+Prison Architect|3.5
+Enter the Gungeon|3.4
+SEUM: Speedrunners from Hell|3.4
+Slime Rancher|3.3
+Rise & Shine|3.3
+DEATH STRANDING|3.3
+Phasmophobia|3.3
+Left 4 Dead|3.2
+Stellar Overload|3.2
+GRIS|3.2
+ibb & obb|3.1
+Serious Sam 3: BFE|3.1
+No Man's Sky|3.1
+Robocraft|3.1
+Worms Reloaded|3.0
+FAR: Lone Sails|3.0
+Path of Exile|3.0
+DayZ|3.0
+Bear Simulator|2.9
+Kerbal Space Program|2.9
+Shantae: Risky's Revenge - Director's Cut|2.9
+Trine 3: The Artifacts of Power|2.8
+Armello|2.8
+Minit|2.8
+Lemma|2.8
+Beat Saber|2.8
+Party Hard|2.7
+Oddworld: New 'n' Tasty|2.7
+Keep Talking and Nobody Explodes|2.7
+looK INside|2.7
+The Forest|2.7
+This War of Mine|2.7
+Crusader Kings III|2.7
+Duck Game|2.6
+Divinity: Original Sin 2|2.6
+Happy Wars|2.6
+Othercide|2.6
+Mining & Tunneling Simulator|2.6
+Stranded Deep|2.5
+The Stanley Parable|2.5
+Ben and Ed - Blood Party|2.5
+Pillars of Eternity|2.5
+Loadout|2.5
+Banished|2.4
+The Cave|2.4
+Spintires®|2.4
+Tabletop Simulator|2.4
+Wolcen: Lords of Mayhem|2.4
+Sid Meier's Civilization: Beyond Earth|2.4
+Dorfromantik|2.3
+Shovel Knight: Treasure Trove|2.3
+Worms Rumble|2.3
+Ori and the Blind Forest|2.3
+Nether|2.2
+Kingdom: Classic|2.2
+GemCraft - Chasing Shadows|2.2
+Golfing Over It with Alva Majo|2.2
+Unreal Tournament: Game of the Year Edition|2.2
+Ski Region Simulator|2.2
+Octodad: Dadliest Catch|2.2
+XCOM: Chimera Squad|2.1
+Jotun: Valhalla Edition|2.1
+TerraTech|2.1
+Disintegration|2.1
+Wildlife Park 3|2.1
+What Remains of Edith Finch|2.1
+3D Paraglider|2.1
+European Ship Simulator|2.0
+Skul: The Hero Slayer|2.0
+Don't Starve|2.0
+Depth|2.0
+Youtubers Life|2.0
+Pro Gamer Manager|2.0
+Spelunky|2.0
+Transistor|2.0
+Warhammer 40,000: Dawn of War III|2.0
+Heavy Metal Machines|1.9
+Melody's Escape|1.9
+Blocks That Matter|1.9
+Getting Over It with Bennett Foddy|1.9
+HITMAN™|1.9
+ABZÛ|1.9
+Surgeon Simulator|1.9
+Slip|1.9
+Craft The World|1.9
+Team Fortress 2|1.9
+AION Free-to-Play|1.9
+Layers of Fear|1.9
+Wild Animal Sports Day|1.8
+Evoland|1.7
+Phoning Home|1.7
+Unturned|1.7
+Stardew Valley|1.7
+Life Goes On|1.7
+Skyscraper Simulator|1.7
+Insurgency|1.6
+War Thunder|1.6
+Reign Of Kings|1.6
+The Final Station|1.6
+Reus|1.6
+Cossacks 3|1.6
+VVVVVV|1.6
+Fireworks Simulator|1.6
+Opus Magnum|1.6
+Snake Pass|1.5
+Bokida - Heartfelt Reunion|1.5
+Audiosurf|1.5
+Beholder|1.5
+FTL: Faster Than Light|1.5
+Dungelot : Shattered Lands|1.5
+Styx: Master of Shadows|1.5
+Invisible, Inc.|1.5
+Bomber Crew|1.5
+RECYCLE|1.5
+Wizard of Legend|1.5
+ORION: Prelude|1.5
+Construction-Simulator 2015|1.5
+Lovers in a Dangerous Spacetime|1.5
+Planetbase|1.5
+Sheltered|1.5
+Oxygen Not Included|1.5
+TrackMania Nations Forever|1.5
+8-Bit Armies|1.5
+Life is Feudal: Your Own|1.5
+Hard West|1.4
+Volgarr the Viking|1.4
+The Mean Greens - Plastic Warfare|1.4
+DLC Quest|1.4
+The Magic Circle|1.4
+Northgard|1.4
+Viscera Cleanup Detail|1.4
+Pit People|1.4
+Giant Machines 2017|1.4
+Mages of Mystralia|1.4
+Block N Load|1.4
+The Witness|1.4
+The Binding of Isaac|1.4
+The Long Dark|1.4
+RiME|1.4
+Dungeonland|1.4
+Deserter Simulator|1.4
+DIG IT! - A Digger Simulator|1.4
+Tea Party Simulator 2015™|1.4
+Death Skid Marks|1.4
+Towtruck Simulator 2015|1.4
+Streets of Rogue|1.4
+Flinthook|1.3
+Hollow Knight|1.3
+Dinosaur Hunt|1.3
+Divinity: Original Sin (Classic)|1.3
+The Wild Eight|1.3
+Driving School Simulator|1.3
+Furi|1.3
+Startup Company|1.3
+Drifting Lands|1.3
+Taxi|1.3
+Plague Inc: Evolved|1.3
+Animal Super Squad|1.3
+Moon Hunters|1.3
+Feist|1.3
+7 Days to Die|1.3
+Dead Cells|1.3
+Reigns|1.3
+Seasons after Fall|1.3
+Velocity 2X|1.3
+Bastion|1.3
+Obduction|1.3
+Risk of Rain|1.3
+Infested Planet|1.3
+Battle Chasers: Nightwar|1.3
+Gold Rush: The Game|1.3
+Chivalry: Medieval Warfare|1.3
+Ship Simulator: Maritime Search and Rescue|1.2
+FEZ|1.2
+Spore|1.2
+Abandon Ship|1.2
+Block'hood|1.2
+Little Nightmares|1.2
+Punch Club|1.2
+Hob|1.2
+Lethis - Path of Progress|1.2
+Hurtworld|1.2
+Beach Resort Simulator|1.2
+Space Engineers|1.2
+Clicker Heroes|1.2
+Predator Simulator|1.2
+Half-Life|1.2
+Tree of Life|1.1
+Woodcutter Simulator 2013|1.1
+The Flame in the Flood|1.1
+BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien|1.1
+Call of Duty|1.1
+SUPERHOT|1.1
+Autobahn Police Simulator|1.1
+JumpJet Rex|1.1
+Carmageddon: Reincarnation|1.1
+The Escapist|1.0
+La-Mulana|1.0
+Subnautica|1.0
+SimplePlanes|1.0
+Medieval Engineers|1.0
+Salt and Sanctuary|1.0
+Wreckfest Throw-A-Santa + Sneak Peek 2.0|1.0
+Nuclear Throne|1.0
+Business Tour - Online Multiplayer Board Game|1.0
+12 is Better Than 6|1.0
+Helicopter Simulator 2014: Search and Rescue|1.0
+Wreckfest|1.0
+NOT A HERO|1.0
+Project Zomboid|1.0
+Grim Dawn|0.9
+Maelstrom|0.9
+Domestic Dog|0.9
+They Are Billions|0.9
+The Sandbox Evolution|0.9
+Lethal League|0.9
+Strike Vector|0.9
+Turbo Dismount|0.9
+Corgi Warlock|0.9
+Reflex Arena|0.9
+You Have to Win the Game|0.9
+Bloody Trapland|0.9
+140|0.9
+Teeworlds|0.9
+ShellShock Live|0.8
+Space Run|0.8
+The Swapper|0.8
+Velocibox|0.8
+theHunter: Primal|0.8
+Square Arena|0.8
+Train Simulator|0.8
+60 Seconds!|0.8
+Crashlands|0.8
+The Stomping Land|0.8
+Icarus-X: Tides of Fire|0.8
+Wings of Vi|0.8
+Squad|0.8
+Mark of the Ninja|0.8
+Devouring Stars|0.8
+No Time To Explain Remastered|0.8
+Runbow|0.8
+Zombie Tycoon 2: Brainhov's Revenge|0.8
+Who's Your Daddy?!|0.8
+Super Laser Racer|0.8
+We Were Here|0.8
+Firefighters 2014|0.8
+Untamed: Life Of A Cougar|0.8
+NaissanceE|0.7
+Shank|0.7
+Cookies vs. Claus|0.7
+Airport Simulator 2015|0.7
+Obliteracers|0.7
+Logistics Company|0.7
+Giana Sisters: Twisted Dreams|0.7
+Ace of Spades|0.7
+Eron|0.7
+Car Mechanic Simulator 2015|0.7
+Can't Drive This|0.7
+Please, Don’t Touch Anything|0.7
+Roundabout|0.7
+I am Bread|0.6
+Absolute Drift|0.6
+Ship Simulator Extremes|0.6
+Lost Castle|0.6
+Lunar Flight|0.6
+CITYCONOMY: Service for your City|0.6
+GRAV|0.6
+Sleep Attack|0.6
+Double Action: Boogaloo|0.6
+Totally Accurate Battlegrounds|0.6
+Zero Gear|0.6
+Stop Santa - Tower Defense|0.6
+Hunter Gatherer|0.6
+Santa's vacation|0.5
+Soundodger+|0.5
+Nidhogg|0.5
+LISA|0.5
+Farming Giant|0.5
+Canabalt|0.5
+Five Nights at Freddy's 2|0.5
+Hover|0.5
+Ostrich Island|0.5
+Gamer Simulator|0.4
+The Plan|0.4
+Bridge It (plus)|0.4
+New York Taxi Simulator|0.4
+Christmas Race|0.4
+Plants vs. Zombies: Game of the Year|0.4
+Worms Revolution|0.3
+CRSED|0.3
+Grass Simulator|0.3
+New York Bus Simulator|0.3
+Rocketbirds: Hardboiled Chicken|0.3
+Helena The 3rd|0.3
+Wild Animal Racing|0.3
+Farming Simulator 19|0.2
+ROCKETSROCKETSROCKETS|0.2
+quadrant|0.2

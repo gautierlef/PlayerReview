@@ -1,4 +1,3 @@
-# %%
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -15,6 +14,8 @@ def get_hours(pseudo):
     if len(games_list) == 0:
         return None
     all_games = games_list[0].find_elements_by_class_name('gameListRow')
+    if len(all_games) == 0:
+        return None
     game_stats = [game.text.split('Liens')[0] for game in all_games if 'heures' in game.text]
     game_stats = [game.strip() for game in game_stats]
     jeu = [game.split('\n')[0] for game in game_stats]
@@ -60,25 +61,45 @@ def load_data():
     return players
 
 
-if __name__ == "__main__":
-    players = load_data()
-    print("Entrer le pseudo du joueur :")
-    pseudo = input()
-    found = False
+def find_player(players, pseudo):
     for player in players:
         if player['name'] == pseudo:
-            found = True
             player = get_hours(pseudo)
-            inputPlayer = player
+            return player
+    return add_new_player(players, pseudo)
+
+
+def add_new_player(players, pseudo):
+    newPlayer = get_hours(pseudo)
+    players.append(newPlayer)
+    return newPlayer
+
+def recommend_games(players, inputPlayer):
+    recommendedGames = 0
+    for player in players:
+        if player['name'] != pseudo:
+            commonGames = jeux_communs(inputPlayer, player)
+            if len(commonGames) > 10:
+                for game in player['games']:
+                    if game not in commonGames:
+                        print("Jeu recommandé :", game)
+                        recommendedGames += 1
+                        break
+        if recommendedGames == 3:
             break
-    if not found:
-        inputPlayer = get_hours(pseudo)
-        if inputPlayer is not None:
-            players.append(inputPlayer)
+
+
+def input_pseudo():
+    print("Entrer le pseudo du joueur :")
+    return input()
+
+
+if __name__ == "__main__":
+    players = load_data()
+    pseudo = input_pseudo()
+    inputPlayer = find_player(players, pseudo)
     if inputPlayer is not None:
-        for player in players:
-            if player['name'] != pseudo:
-                print("Jeux en commun avec :", player['name'], jeux_communs(inputPlayer, player))
+        recommend_games(players, inputPlayer)
         save_data(players)
     else:
-        print("Le pseudo :", pseudo, "ne correspond à aucun compte.")
+        print("Le pseudo :", pseudo, "ne correspond à aucun compte ou ce joueur n'a pas de jeu.")
