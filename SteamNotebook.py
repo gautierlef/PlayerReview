@@ -44,7 +44,7 @@ def save_data(players):
 
 
 def load_data():
-    file = open('data.txt', 'r')
+    file = open('data.txt', 'r', encoding='utf-8')
     players = []
     data = file.read().splitlines()
     for line in data:
@@ -62,10 +62,13 @@ def load_data():
 
 
 def find_player(players, pseudo):
+    index = 0
     for player in players:
         if player['name'] == pseudo:
             player = get_hours(pseudo)
+            players[index] = player
             return player
+        index += 1
     return add_new_player(players, pseudo)
 
 
@@ -74,19 +77,48 @@ def add_new_player(players, pseudo):
     players.append(newPlayer)
     return newPlayer
 
+
 def recommend_games(players, inputPlayer):
-    recommendedGames = 0
+    recommendedGames = []
     for player in players:
-        if player['name'] != pseudo:
+        if player != inputPlayer:
             commonGames = jeux_communs(inputPlayer, player)
             if len(commonGames) > 10:
                 for game in player['games']:
                     if game not in commonGames:
-                        print("Jeu recommandé :", game)
-                        recommendedGames += 1
+                        if game in recommendedGames:
+                            for recommendedGame in recommendedGames["name"]:
+                                if recommendedGame["name"] == game["name"]:
+                                    game["nb"] += 1
+                                    break
+                            break
+                        else:
+                            recommendedGames.append({"name": game, "nb": 1})
+                            break
+    recommendedGames = sorted(recommendedGames, key=lambda k: k['nb'])
+    print("Voici 3 jeux joués par des utilisateurs similaire à vous :", recommendedGames[0]["name"], ",", recommendedGames[1]["name"], ",", recommendedGames[2]["name"], "\n")
+
+def recommend_players(players, inputPlayer):
+    recommendedPlayers = []
+    print("Vous avez plusieurs jeux en commun avec ces joueurs peut être voudriez vous les contacter :")
+    nbRecommendedPlayers = 0
+    for player in players:
+        if player != inputPlayer:
+            nbCommonGame = 0
+            commonGames = jeux_communs(inputPlayer, player)
+            if len(commonGames) > 2:
+                nbRecommendedPlayers += 1
+                str = player['name'] + " : "
+                for game in player['games']:
+                    if game in commonGames:
+                        str += game + ", "
+                        nbCommonGame += 1
+                    if nbCommonGame > 2:
+                        str = str[:-2]
+                        print(str)
                         break
-        if recommendedGames == 3:
-            break
+            if nbRecommendedPlayers > 2:
+                break
 
 
 if __name__ == "__main__":
@@ -95,6 +127,7 @@ if __name__ == "__main__":
     inputPlayer = find_player(players, pseudo)
     if inputPlayer is not None:
         recommend_games(players, inputPlayer)
+        recommend_players(players, inputPlayer)
         save_data(players)
     else:
         print("Le pseudo :", pseudo, "ne correspond à aucun compte ou ce joueur n'a pas de jeu.")
