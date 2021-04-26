@@ -86,22 +86,23 @@ def recommend_games(players, inputPlayer):
             if len(commonGames) > 10:
                 for game in player['games']:
                     if game not in commonGames:
-                        if game in recommendedGames:
-                            for recommendedGame in recommendedGames["name"]:
-                                if recommendedGame["name"] == game["name"]:
-                                    game["nb"] += 1
-                                    break
-                            break
-                        else:
+                        gameAlreadyRecommended = False
+                        for recommendedGame in recommendedGames:
+                            if recommendedGame["name"] == game:
+                                recommendedGame["nb"] += 1
+                                gameAlreadyRecommended = True
+                                break
+                        if not gameAlreadyRecommended:
                             recommendedGames.append({"name": game, "nb": 1})
-                            break
+                        break
     recommendedGames = sorted(recommendedGames, key=lambda k: k['nb'])
+    recommendedGames.reverse()
     print("\nVoici des jeux joués par des utilisateurs similaire à vous :")
     nbRecommendedGames = 0
     for game in recommendedGames:
         print(game['name'])
         nbRecommendedGames += 1
-        if nbRecommendedGames > 3:
+        if nbRecommendedGames > 2:
             break
 
 
