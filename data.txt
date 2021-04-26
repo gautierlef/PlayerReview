@@ -18,14 +18,14 @@ Enter the Gungeon|42.0
 Red Dead Redemption 2|42.0
 The Binding of Isaac|38.0
 Cyberpunk 2077|38.0
-Might & Magic Heroes VII � Trial by Fire|34.0
+Might & Magic Heroes VII Ã¯Â¿Â½ Trial by Fire|34.0
 Neverwinter|30.0
 Borderlands 2|29.0
 Far Cry 5|28.0
 DmC Devil May Cry|25.0
 Valheim|23.0
 Dead Age|17.1
-Middle-earth�: Shadow of Mordor�|14.5
+Middle-earthÃ¯Â¿Â½: Shadow of MordorÃ¯Â¿Â½|14.5
 Thronebreaker: The Witcher Tales|14.0
 Tiger Knight: Empire War|13.5
 Bless Online|13.2
@@ -52,7 +52,7 @@ Broforce|3.2
 GreedFall|2.9
 Evil Genius 2|2.2
 Dota 2|2.2
-Command & Conquer� Remastered Collection|1.9
+Command & ConquerÃ¯Â¿Â½ Remastered Collection|1.9
 Destiny 2|1.7
 Echo of Soul|1.6
 TERA|1.5
@@ -90,7 +90,7 @@ Counter-Strike: Global Offensive|151.0
 Team Fortress 2|133.0
 Total War: WARHAMMER II|126.0
 Monster Hunter: World|111.0
-Darkest Dungeon�|102.0
+Darkest DungeonÃ¯Â¿Â½|102.0
 Blood Bowl 2|97.0
 Counter-Strike: Source|90.0
 Trove|87.0
@@ -117,7 +117,7 @@ Starbound|33.0
 Elite Dangerous|32.0
 Noita|31.0
 The Sims(TM) 3|31.0
-Middle-earth�: Shadow of Mordor�|29.0
+Middle-earthÃ¯Â¿Â½: Shadow of MordorÃ¯Â¿Â½|29.0
 Sleeping Dogs: Definitive Edition|27.0
 Styx: Shards of Darkness|26.0
 FTL: Faster Than Light|23.0
@@ -138,14 +138,14 @@ Garry's Mod|16.0
 Toribash|15.3
 Magic Duels|15.3
 Trine 2|13.7
-Br�tal Legend|13.6
+BrÃ¯Â¿Â½tal Legend|13.6
 TERA|12.1
 The Guild II|11.8
 Don't Starve|11.6
 DEATH STRANDING|11.4
 X-Blades|11.0
 Star Wars: Battlefront 2 (Classic, 2005)|10.3
-Le Donjon de Naheulbeuk : L'Amulette du D�sordre|10.2
+Le Donjon de Naheulbeuk : L'Amulette du DÃ¯Â¿Â½sordre|10.2
 River City Girls|9.8
 Magicka 2|9.7
 Rogue Legacy|9.5
@@ -157,7 +157,7 @@ Business Tour - Online Multiplayer Board Game|8.2
 Spore|8.0
 Kingdom Rush Frontiers|8.0
 Unturned|7.8
-TrackMania� Stadium|7.2
+TrackManiaÃ¯Â¿Â½ Stadium|7.2
 Loadout|5.9
 Dead Island|5.8
 Cthulhu Saves the World|4.9
@@ -211,7 +211,7 @@ Dishonored 2|22.0
 Bad North|21.0
 The End Is Nigh|21.0
 Age of Empires II: Definitive Edition|19.8
-TrackMania� Stadium|13.5
+TrackManiaÃ¯Â¿Â½ Stadium|13.5
 The Pedestrian|12.4
 Wolfenstein II: The New Colossus|11.8
 Fall Guys: Ultimate Knockout|11.1
@@ -230,7 +230,7 @@ The Dark Pictures Anthology: Man of Medan|3.3
 DeadCore|2.8
 Late Shift|2.5
 Counter-Strike: Global Offensive|2.2
-Mirror's Edge� Catalyst|2.1
+Mirror's EdgeÃ¯Â¿Â½ Catalyst|2.1
 Celeste|1.6
 Don't Starve Together|1.6
 Hellblade: Senua's Sacrifice|1.6
@@ -267,7 +267,7 @@ FTL: Faster Than Light|67.0
 Two Point Hospital|58.0
 Sid Meier's Civilization V|52.0
 Call of Duty: Modern Warfare 2 - Multiplayer|51.0
-LEGO� The Lord of the Rings�|51.0
+LEGOÂ® The Lord of the Ringsâ„¢|51.0
 Tropico 4|41.0
 Grand Theft Auto V|41.0
 Borderlands 2|40.0
@@ -276,17 +276,17 @@ Cities XL 2012|34.0
 Clicker Heroes|34.0
 Tom Clancy's Rainbow Six Siege|31.0
 Borderlands GOTY|30.0
-LEGO� MARVEL Super Heroes|26.0
+LEGOÂ® MARVEL Super Heroes|26.0
 The Tiny Bang Story|23.0
 Creeper World 3: Arc Eternal|21.0
 Plants vs. Zombies: Game of the Year|20.0
-LEGO� The Hobbit�|19.8
+LEGOÂ® The Hobbitâ„¢|19.8
 Prison Architect|19.5
 Call of Duty: Black Ops - Multiplayer|19.3
-Middle-earth�: Shadow of Mordor�|19.3
+Middle-earthâ„¢: Shadow of Mordorâ„¢|19.3
 Day of Defeat|19.1
 Radical Dungeon Sweeper|18.1
-Sleeping Dogs�|16.5
+Sleeping Dogsâ„¢|16.5
 Batman: Arkham City GOTY|15.8
 Portal 2|14.2
 AdVenture Capitalist|14.0
@@ -401,7 +401,7 @@ Splasher|83.0
 ASTRONEER|64.0
 Cook, Serve, Delicious! 3?!|53.0
 FORCED SHOWDOWN|50.0
-Battlefield: Bad Company� 2|46.0
+Battlefield: Bad Companyâ„¢ 2|46.0
 Road Redemption|44.0
 Golf It!|43.0
 Darwin Project|42.0
@@ -421,7 +421,7 @@ Refunct|26.0
 Loop Hero|25.0
 Poly Bridge|25.0
 The Binding of Isaac: Rebirth|23.0
-Darkest Dungeon�|23.0
+Darkest DungeonÂ®|23.0
 Euro Truck Simulator 2|23.0
 INSIDE|22.0
 Battlerite Royale|22.0
@@ -463,7 +463,7 @@ Left 4 Dead 2|9.1
 The End Is Nigh|9.0
 Tricky Towers|8.5
 Degrees of Separation|8.5
-Far Cry� 3 Blood Dragon|8.4
+Far CryÂ® 3 Blood Dragon|8.4
 Cook, Serve, Delicious!|8.4
 Rayman Legends|8.1
 Age of Empires II: Definitive Edition|8.1
@@ -496,8 +496,8 @@ Trine 2|5.8
 Don't Starve Together|5.7
 Transformice|5.5
 Magicka|5.5
-Gauntlet�|5.2
-Dungeon of the Endless�|5.0
+Gauntletâ„¢|5.2
+Dungeon of the Endlessâ„¢|5.0
 Tools Up!|5.0
 Age of Empires II (2013)|4.9
 Pode|4.9
@@ -508,7 +508,7 @@ Planetary Annihilation|4.7
 Choice Chamber|4.7
 Half-Life 2|4.6
 Outlast|4.6
-Command & Conquer� Remastered Collection|4.6
+Command & Conquerâ„¢ Remastered Collection|4.6
 Unravel Two|4.6
 Ben and Ed|4.5
 Besiege|4.5
@@ -516,7 +516,7 @@ DwarfHeim|4.5
 Trine 4: The Nightmare Prince|4.5
 Biped|4.4
 Human: Fall Flat|4.3
-LEGO� The Lord of the Rings�|4.3
+LEGOÂ® The Lord of the Ringsâ„¢|4.3
 The Talos Principle|4.2
 Hotline Miami 2: Wrong Number|4.2
 Talent Not Included|4.2
@@ -575,7 +575,7 @@ Pillars of Eternity|2.5
 Loadout|2.5
 Banished|2.4
 The Cave|2.4
-Spintires�|2.4
+SpintiresÂ®|2.4
 Tabletop Simulator|2.4
 Wolcen: Lords of Mayhem|2.4
 Sid Meier's Civilization: Beyond Earth|2.4
@@ -610,8 +610,8 @@ Heavy Metal Machines|1.9
 Melody's Escape|1.9
 Blocks That Matter|1.9
 Getting Over It with Bennett Foddy|1.9
-HITMAN�|1.9
-ABZ�|1.9
+HITMANâ„¢|1.9
+ABZÃ›|1.9
 Surgeon Simulator|1.9
 Slip|1.9
 Craft The World|1.9
@@ -672,7 +672,7 @@ RiME|1.4
 Dungeonland|1.4
 Deserter Simulator|1.4
 DIG IT! - A Digger Simulator|1.4
-Tea Party Simulator 2015�|1.4
+Tea Party Simulator 2015â„¢|1.4
 Death Skid Marks|1.4
 Towtruck Simulator 2015|1.4
 Streets of Rogue|1.4
@@ -788,7 +788,7 @@ Ace of Spades|0.7
 Eron|0.7
 Car Mechanic Simulator 2015|0.7
 Can't Drive This|0.7
-Please, Don�t Touch Anything|0.7
+Please, Donâ€™t Touch Anything|0.7
 Roundabout|0.7
 I am Bread|0.6
 Absolute Drift|0.6

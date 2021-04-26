@@ -33,7 +33,7 @@ def jeux_communs(dic1, dic2):
 
 
 def save_data(players):
-    file = open("data.txt", "w")
+    file = open("data.txt", "w", encoding='utf-8')
     content = ""
     for player in players:
         content += "Player|" + player["name"] + "\n"
@@ -89,14 +89,9 @@ def recommend_games(players, inputPlayer):
             break
 
 
-def input_pseudo():
-    print("Entrer le pseudo du joueur :")
-    return input()
-
-
 if __name__ == "__main__":
     players = load_data()
-    pseudo = input_pseudo()
+    pseudo = input("Entrer le pseudo du joueur : ")
     inputPlayer = find_player(players, pseudo)
     if inputPlayer is not None:
         recommend_games(players, inputPlayer)
