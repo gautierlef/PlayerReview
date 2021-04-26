@@ -96,11 +96,12 @@ def recommend_games(players, inputPlayer):
                             recommendedGames.append({"name": game, "nb": 1})
                             break
     recommendedGames = sorted(recommendedGames, key=lambda k: k['nb'])
-    print("Voici 3 jeux joués par des utilisateurs similaire à vous :", recommendedGames[0]["name"], ",", recommendedGames[1]["name"], ",", recommendedGames[2]["name"], "\n")
+    print("Voici 3 jeux joués par des utilisateurs similaire à vous :"
+          , recommendedGames[0]['name'], ',', recommendedGames[1]["name"], ',', recommendedGames[2]["name"], "\n")
+
 
 def recommend_players(players, inputPlayer):
-    recommendedPlayers = []
-    print("Vous avez plusieurs jeux en commun avec ces joueurs peut être voudriez vous les contacter :")
+    print('Vous avez plusieurs jeux en commun avec ces joueurs peut être voudriez vous les contacter :')
     nbRecommendedPlayers = 0
     for player in players:
         if player != inputPlayer:
@@ -108,26 +109,26 @@ def recommend_players(players, inputPlayer):
             commonGames = jeux_communs(inputPlayer, player)
             if len(commonGames) > 2:
                 nbRecommendedPlayers += 1
-                str = player['name'] + " : "
+                myStr = player['name'] + ' : '
                 for game in player['games']:
                     if game in commonGames:
-                        str += game + ", "
+                        myStr += game + ', '
                         nbCommonGame += 1
                     if nbCommonGame > 2:
-                        str = str[:-2]
-                        print(str)
+                        myStr = myStr[:-2]
+                        print(myStr)
                         break
             if nbRecommendedPlayers > 2:
                 break
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     players = load_data()
-    pseudo = input("Entrer le pseudo du joueur : ")
+    pseudo = input('Entrer le pseudo du joueur : ')
     inputPlayer = find_player(players, pseudo)
     if inputPlayer is not None:
         recommend_games(players, inputPlayer)
         recommend_players(players, inputPlayer)
         save_data(players)
     else:
-        print("Le pseudo :", pseudo, "ne correspond à aucun compte ou ce joueur n'a pas de jeu.")
+        print('Le pseudo :', pseudo, 'ne correspond à aucun compte ou ce joueur n\'a pas de jeu.')
