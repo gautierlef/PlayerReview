@@ -897,7 +897,7 @@ Rust|276.0
 Kerbal Space Program|217.0
 RimWorld|187.0
 Tom Clancy's The Division|165.0
-Oxygen Not Included|162.0
+Oxygen Not Included|163.0
 Call of Duty: Modern Warfare 2 - Multiplayer|152.0
 ARK: Survival Evolved|141.0
 Stellaris|127.0

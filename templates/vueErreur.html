@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>PlayerReview</title>
+		<link rel="stylesheet" href="{{ url_for( 'static' , filename = 'css/bootstrap.min.css' ) }}">
+		<link rel="stylesheet" href="{{ url_for( 'static' , filename = 'css/css.css' ) }}" >
+		<script type="text/javascript" src="{{ url_for( 'static' , filename = 'js/jquery-1.11.2.js' ) }}"></script>
+		<script type="text/javascript" src="{{ url_for( 'static' , filename = 'js/bootstrap.min.js' ) }}"></script>
+	</head>
+
+	<body style="background-image: url({{ url_for( 'static' , filename = 'media/background.jpg' ) }}">
+        <br>
+        <br>
+		<div style="text-align: center;">
+            <div style="width: 30%; border: 1px solid black; background-color: #efefef; margin: auto;">
+                Le pseudo : {{ pseudo }} ne correspond à aucun compte ou le profil de ce joueur est privé.
+            </div>
+        </div>
+	</body>
+</html>
