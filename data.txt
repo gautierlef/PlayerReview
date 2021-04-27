@@ -91,8 +91,8 @@ Worms Revolution|3.2
 Teeworlds|2.7
 Sparkle 2 Evo|2.6
 Portal|2.5
-Camera Obscura|2.3
 Caster|2.3
+Camera Obscura|2.3
 Primal Carnage|2.3
 Terra Incognita ~ Chapter One: The Descendant|2.2
 Oddworld: Abe's Oddysee|2.1

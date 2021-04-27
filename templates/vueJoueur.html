@@ -1,39 +1,35 @@
-<!DOCTYPE html>
-<html lang="fr-FR">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>PlayerReview</title>
-		<link rel="stylesheet" href="{{ url_for( 'static' , filename = 'css/bootstrap.min.css' ) }}">
-		<link rel="stylesheet" href="{{ url_for( 'static' , filename = 'css/css.css' ) }}" >
-		<script type="text/javascript" src="{{ url_for( 'static' , filename = 'js/jquery-1.11.2.js' ) }}"></script>
-		<script type="text/javascript" src="{{ url_for( 'static' , filename = 'js/bootstrap.min.js' ) }}"></script>
-	</head>
+{% include 'vueHeader.html' %}
 
-	<body style="background-image: url({{ url_for( 'static' , filename = 'media/background.jpg' ) }}">
+<br>
+<br>
+<div style="text-align: center;">
+    <div style="width: 30%; border: 1px solid black; background-color: #efefef; margin: auto;">
+        <h2>{{ pseudo }}</h2>
+        <p style="text-decoration: underline">Voici des jeux joués par des utilisateurs similaire à vous :</p>
+        <table class="table" style="margin: auto;">
+            {% for game in recommendedGames %}
+            <tr>
+                <td>{{ game['name'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
         <br>
         <br>
-		<div style="text-align: center;">
-            <div style="width: 30%; border: 1px solid black; background-color: #efefef; margin: auto;">
-                <h2>{{ pseudo }}</h2>
-                <p>Voici des jeux joués par des utilisateurs similaire à vous :</p>
-                <table class="table" style="margin: auto;">
-                    {% for game in recommendedGames %}
-                        <tr><td>{{ game['name'] }}</td></tr>
+        <p style="text-decoration: underline">Vous avez plusieurs jeux en commun avec ces joueurs peut être voudriez vous les contacter :</p>
+        {% for player in recommendedPlayers %}
+            <table class="table" style="margin: auto;">
+            <tr><td style="width: 33%;"></td><td style="width: 33%;">{{ player['name'] }}</td><td style="width: 33%;"></td></tr>
+                <tr>
+                    {% for game in player['games'] %}
+                        <td style="width: 33%;">{{ game }}</td>
                     {% endfor %}
-                </table>
-                <p>Vous avez plusieurs jeux en commun avec ces joueurs peut être voudriez vous les contacter :</p>
-                <table class="table" style="margin: auto;">
-                    {% for player in recommendedPlayers %}
-                        <tr><td>{{ player['name'] }} :
-                        {% for game in player['games'] %}
-                            {{ game }}
-                        {% endfor %}
-                        </td></tr>
-                    {% endfor %}
-                </table>
-            </div>
-        </div>
-	</body>
-</html>
+                </tr>
+            </table>
+            <a target="_blank" rel="noopener noreferrer" href="https://steamcommunity.com/id/{{player['name']}}/">Lien vers le profil de {{player['name']}}</a>
+            <br>
+            <br>
+        {% endfor %}
+    </div>
+</div>
+
+{% include 'vueFooter.html' %}

@@ -10,15 +10,3 @@ body {
 .navbar {
 	margin-bottom: 20px;
 }
-
-img {
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.center {
-    margin: auto;
-    padding: 10px;
-}

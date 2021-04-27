@@ -28,11 +28,9 @@ def rechercheJoueur():
         save_data(players)
     else:
         return render_template('vueErreur.html', pseudo=pseudo)
+    if len(recommendedGames) == 0 or len(recommendedPlayers) == 0:
+        return render_template('vueManque.html', pseudo=pseudo)
     return render_template('vueJoueur.html', pseudo=pseudo, recommendedGames=recommendedGames, recommendedPlayers=recommendedPlayers)
-
-
-if __name__ == '__main__':
-    app.run()
 
 
 def get_steam_site(username):
@@ -57,6 +55,7 @@ def get_hours(pseudo):
         'name': pseudo,
         'games': dict(zip(jeu, heures))
     }
+    wd_steam.close()
     return player
 
 
@@ -153,3 +152,7 @@ def recommend_players(players, inputPlayer):
             if nbRecommendedPlayers > 2:
                 break
     return recommendedPlayers
+
+
+if __name__ == '__main__':
+    app.run()
